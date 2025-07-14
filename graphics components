@@ -1,0 +1,8 @@
+import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
+import { ParticleOverlay } from './particle-overlay';
+import { MeshGradient } from './mesh-gradient';
+
+export function AdvancedBackground({ variant = 'primary', className = '' }) {
+  // ... [Advanced background with particles, gradients, and animations]
+}
