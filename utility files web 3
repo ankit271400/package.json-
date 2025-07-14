@@ -1,0 +1,7 @@
+export const connectWallet = async (): Promise<string | null> => {
+  // ... [MetaMask wallet connection logic]
+};
+
+export const getWalletBalance = async (address: string): Promise<string> => {
+  // ... [Wallet balance retrieval]
+};
