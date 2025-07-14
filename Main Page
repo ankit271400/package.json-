@@ -1,0 +1,34 @@
+import Navigation from '@/components/navigation';
+import Dashboard from '@/components/dashboard';
+import SmartBinSimulator from '@/components/smart-bin-simulator';
+import Marketplace from '@/components/marketplace';
+import Web3Integration from '@/components/web3-integration';
+import DAOGovernance from '@/components/dao-governance';
+import Footer from '@/components/footer';
+import { AdvancedBackground } from '@/components/graphics/advanced-background';
+import { SectionDivider } from '@/components/graphics/section-divider';
+// ... [Additional imports]
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-light-bg">
+      <Navigation />
+      
+      {/* Hero Section */}
+      <section className="relative overflow-hidden text-white py-20">
+        <AdvancedBackground variant="primary" />
+        {/* ... [Hero content] */}
+      </section>
+
+      <SectionDivider variant="wave" />
+
+      {/* Smart Bin Simulation Section */}
+      <section className="relative py-16 overflow-hidden">
+        <AdvancedBackground variant="secondary" />
+        {/* ... [Smart bin content] */}
+      </section>
+
+      {/* ... [Additional sections with advanced backgrounds] */}
+    </div>
+  );
+}
